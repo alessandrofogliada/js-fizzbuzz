@@ -8,15 +8,20 @@ for (let i = 1; i <= 100; i++){
 // creare contenitore dei numeri
     const element = `<div class="box">${i}</div>`;
     console.log(element);
+// indichiamo che l'elemento va inserito nel container
     container.innerHTML +=element;
+
+    if ( element === 3 ) {
+        box.classList.add("fizz")
+    } 
 }
 
 
 // crea una variabile con if , else per modificare i numeri multipli di 3 e 5
 
-if ( element === 3 ) {
-    box.classList.add("fizz")
-}
+const element = document.getElementsByClassName("i")
+
+
 
 
 
